@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 
 function Home() {
@@ -10,6 +11,7 @@ function Home() {
       <p className="desc text-center">An open source AI prompting tool Designed with objective to achive efficiency for AI tools on a user level. <br />Discover , create and share creative prompts</p>
 
       {/* feed component  */}
+      <Feed/>
     </section>
   )
 }
